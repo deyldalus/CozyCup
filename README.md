@@ -8,9 +8,9 @@ Cozy Cup is a haven for coffee lovers and pastry enthusiasts, offering a cozy re
 
 - Intuitive Website Design: Effortlessly explore our offerings and services.
 - Diverse Menu: Indulge in a variety of coffees, teas, and baked goods.
-- About Us Section:**Learn about our journey, vision, and the team behind Cozy Cup.
+- About Us Section: Learn about our journey, vision, and the team behind Cozy Cup.
 - Contact and Feedback: Easily connect with us for any queries or share your experience.
-- Embedded Location Map:** Quickly locate us and plan your visit.
+- Embedded Location Map: Quickly locate us and plan your visit.
 
 ## Homepage
 
