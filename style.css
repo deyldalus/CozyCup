@@ -41,7 +41,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #fc5c00;
+    color: #ffd7c0d2;
 }
 
 
@@ -49,18 +49,35 @@ nav a:hover {
     position: relative;
     text-align: center;
     padding: 150px 0;
-    background-image: url('../img/background_cafe.jpg');
+    overflow: hidden;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: rgb(239, 239, 239);
+
 }
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero h1, .hero p, .cta-button {
+    position: relative;
+    z-index: 1;
+}
+
 
 .hero::before {
     content: '';
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(255, 34, 34, 0);
     z-index: 1;
 }
 
@@ -91,7 +108,7 @@ nav a:hover {
 }
 
 .cta-button:hover {
-    background-color: #ed6516;
+    background-color: #2b1000;
 }
 
 
