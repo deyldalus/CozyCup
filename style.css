@@ -1,24 +1,21 @@
-/* Reset some default styles */
+
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
-/* font color */
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f2e0;
     color: #000000;
 }
 
-/* bg color ng header */
 header {
     background-color: #F5F5F5;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
 
-/* css sa nav var */
 nav {
     display: flex;
     justify-content: space-between;
@@ -35,7 +32,7 @@ nav ul {
     gap: 20px;
 }
 
-/* color ng  menu, home, ....*/
+
 nav a {
     text-decoration: none;
     color: #000000;
@@ -47,7 +44,7 @@ nav a:hover {
     color: #fc5c00;
 }
 
-/* HERO  */
+
 .hero {
     position: relative;
     text-align: center;
@@ -98,7 +95,7 @@ nav a:hover {
 }
 
 
-/* menu */
+
 .menu {
     padding: 40px 0;
     text-align: center;
@@ -201,8 +198,6 @@ nav a:hover {
 
 
 
-
-/* about us */
 .about {
     padding: 100px 0;
     text-align: center;
@@ -221,7 +216,65 @@ nav a:hover {
 }
 
 
-/* contact */
+.team-section {
+    text-align: center;
+    background-color: #DFD7BF;
+    padding: 50px 0;
+}
+
+.team-section h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 400px;
+    background-color: #fff0dc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    width: 100%;
+    max-width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h3 {
+    font-size: 18px;
+    color: #3F2305;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.team-member p {
+    font-size: 14px;
+    color: #555;
+    font-style: italic;
+    margin: 0;
+}
+
+
+
 .contact {
     padding: 100px 0;
     text-align: center;
@@ -316,7 +369,6 @@ nav a:hover {
 
 
 
-/* contact */
 footer {
     background-color: #3C2A21;
     color: white;
