@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cozy Cup Café</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="cozy.png" alt="CozyCup Café Logo" />
+        </div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <h1>Cozy Cup Café</h1>
+      <p>"Where Every Sip Tells a Story."</p>
+      <a href="#menu" class="cta-button">EXPLORE MENU</a>
+    </section>
+
+    <section id="menu" class="menu">
+      <h2>OUR MENU</h2>
+      <div class="menu-container">
+        <div class="menu-category">
+          <h3>Coffee</h3>
+          <ul class="menu-items">
+            <li>
+              <img style="border-radius: 25px;" src="espresso.png" alt="Espresso Image" width="150" height="150">
+              <h4>Espresso
+              <span>₱120</span></h4>
+              <p>Bold, rich coffee served in its purest form.</p>
+            </li>
+            <li>
+              <img style="border-radius: 25px;" src="seasalt.png" alt="Salted Caramel Image" width="150" height="150">
+              <h4>Salted Caramel<span>₱180</span></h4>
+              <p>
+                Blended with steamed milk, topped with a light foam.
+              </p>
+            </li>
+            <li>
+              <img style="border-radius: 25px;" src="americano.png" alt="Americano Image" width="150" height="150">
+              <h4>Americano<span>₱100</span></h4>
+              <p>A classic shot of Americano</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="menu-category">
+          <h3>Pastries</h3>
+          <ul class="menu-items">
+            <li>
+              <img style="border-radius: 25px;" src="cookies.png" alt="Cookies Image" width="150" height="150">
+              <h4>Cookies<span>₱80</span></h4>
+              <p>It is a buttery, flaky, viennoiserie pastry.</p>
+            </li>
+            <li>
+              <img style="border-radius: 25px;" src="muffins.png" alt="Muffin Image" width="150" height="150">
+              <h4>Muffin<span>₱70</span></h4>
+              <p>
+                A soft and fluffy muffin, perfect for a sweet snack or
+                breakfast.
+              </p>
+            </li>
+            <li>
+              <img style="border-radius: 25px;" src="crinkles.png" alt="Crinkles Image" width="150" height="150">
+              <h4>Crinkles<span>₱100</span></h4>
+              <p>
+                A pastry, made with a savory mixture of flour, buttermilk,
+                baking soda, and salt.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p> 
+            "From Dream to Brew: CozyCup Café was founded with a simple vision—to create
+            a warm and welcoming space where coffee lovers, friends, and strangers can connect
+            over rich aromas and heartfelt conversations. Rooted in small-town charm and a passion
+            for quality, every cup we serve is more than just coffee—it's comfort, community, and 
+            a little escape from the everyday."
+        </p>
+        
+<br>       
+<br>
+    <hr style="border: 0.5px solid black;">
+
+<br>
+<br>
+        <section class ="the team">
+            <h2>Meet the Minds Behind CozyCup Café</h2>
+            <div class="team-member">
+                <img style="border-radius: 25px;" src="img/Founder Cafe.jpg" alt="Founder Image" width="250" height="300">
+                <h4>Aeron Decolongon</h4>
+                <p>"Crafting Coffee, Creating Memories."</p>
+                <br>
+                <br>
+                
+
+            </div>
+            <div class="team-member">
+                <img style="border-radius: 25px;" src="gengeng.png" alt="Co-Founder Image" width="250" height="300">
+                <h4>Jordan Mesina</h4>
+                <p>"Bringing People Together Over Coffee."</p>
+                <br>
+        </section>
+
+<br>       
+<br>
+    <hr style="border: 0.5px solid black;">
+<br>
+<br>
+
+        <section class ="mission">
+            <h2> Our Mission</h2>
+            <div class="mission">
+                <p> 
+                    "CozyCup Café is all about creating a place where coffee lovers 
+                    can unwind, connect, and enjoy the finest brews. Our mission? 
+                    To serve not just coffee, but an experience that fills every sip 
+                    with warmth and joy."
+                </p>
+            </div>
+        </section>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? Reach out to us...</p>
+        <section class ="contact us">
+            <p>Sa tabi ng Baybay Dagat, Puerto Princesa, CA 90210 <br>
+                (8700) 080858 <br>
+                support@cozycupcafe.com</p>
+        </section>
+        <section class = "form">
+            <div class="contact-form">
+                <h2>Send us your thoughts</h2>
+                <form action="/submit" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Feedback Customer:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+<br>
+        <section class ="map">
+            <div class="map-container">
+                <h2>Location of Cafe</h2>
+                <iframe 
+                    class="map"
+                    src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=baywalk puerto princesa&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+    </section>
+    
+
+
+
+
+    <footer>
+        <p>&copy; 2025 CozyCup Café. All rights reserved.</p>
+        <div class="social-media">
+            <h2>Follow Us</h2>
+            <br>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+        </div>
+    </footer>
+  </body>
+</html>
