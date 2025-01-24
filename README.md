@@ -48,4 +48,4 @@ Stay connected and updated:
 
 ## Image Preview
 
-![CozyCup Café](logo.png)
+![CozyCup Café](images/logo.png)
